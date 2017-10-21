@@ -1,0 +1,55 @@
+
+State Machine - |MyComputer|Debounce:db|state_reg
+Name state_reg.low3 state_reg.low2 state_reg.low1 state_reg.one state_reg.high3 state_reg.high2 state_reg.high1 state_reg.zero 
+state_reg.zero 0 0 0 0 0 0 0 0 
+state_reg.high1 0 0 0 0 0 0 1 1 
+state_reg.high2 0 0 0 0 0 1 0 1 
+state_reg.high3 0 0 0 0 1 0 0 1 
+state_reg.one 0 0 0 1 0 0 0 1 
+state_reg.low1 0 0 1 0 0 0 0 1 
+state_reg.low2 0 1 0 0 0 0 0 1 
+state_reg.low3 1 0 0 0 0 0 0 1 
+
+State Machine - |MyComputer|CPU:cpu|DectectFallingEdge:pb[3].dfe|Debounce:bnt|state_reg
+Name state_reg.low3 state_reg.low2 state_reg.low1 state_reg.one state_reg.high3 state_reg.high2 state_reg.high1 state_reg.zero 
+state_reg.zero 0 0 0 0 0 0 0 0 
+state_reg.high1 0 0 0 0 0 0 1 1 
+state_reg.high2 0 0 0 0 0 1 0 1 
+state_reg.high3 0 0 0 0 1 0 0 1 
+state_reg.one 0 0 0 1 0 0 0 1 
+state_reg.low1 0 0 1 0 0 0 0 1 
+state_reg.low2 0 1 0 0 0 0 0 1 
+state_reg.low3 1 0 0 0 0 0 0 1 
+
+State Machine - |MyComputer|CPU:cpu|DectectFallingEdge:pb[2].dfe|Debounce:bnt|state_reg
+Name state_reg.low3 state_reg.low2 state_reg.low1 state_reg.one state_reg.high3 state_reg.high2 state_reg.high1 state_reg.zero 
+state_reg.zero 0 0 0 0 0 0 0 0 
+state_reg.high1 0 0 0 0 0 0 1 1 
+state_reg.high2 0 0 0 0 0 1 0 1 
+state_reg.high3 0 0 0 0 1 0 0 1 
+state_reg.one 0 0 0 1 0 0 0 1 
+state_reg.low1 0 0 1 0 0 0 0 1 
+state_reg.low2 0 1 0 0 0 0 0 1 
+state_reg.low3 1 0 0 0 0 0 0 1 
+
+State Machine - |MyComputer|CPU:cpu|DectectFallingEdge:pb[1].dfe|Debounce:bnt|state_reg
+Name state_reg.low3 state_reg.low2 state_reg.low1 state_reg.one state_reg.high3 state_reg.high2 state_reg.high1 state_reg.zero 
+state_reg.zero 0 0 0 0 0 0 0 0 
+state_reg.high1 0 0 0 0 0 0 1 1 
+state_reg.high2 0 0 0 0 0 1 0 1 
+state_reg.high3 0 0 0 0 1 0 0 1 
+state_reg.one 0 0 0 1 0 0 0 1 
+state_reg.low1 0 0 1 0 0 0 0 1 
+state_reg.low2 0 1 0 0 0 0 0 1 
+state_reg.low3 1 0 0 0 0 0 0 1 
+
+State Machine - |MyComputer|CPU:cpu|DectectFallingEdge:pb[0].dfe|Debounce:bnt|state_reg
+Name state_reg.low3 state_reg.low2 state_reg.low1 state_reg.one state_reg.high3 state_reg.high2 state_reg.high1 state_reg.zero 
+state_reg.zero 0 0 0 0 0 0 0 0 
+state_reg.high1 0 0 0 0 0 0 1 1 
+state_reg.high2 0 0 0 0 0 1 0 1 
+state_reg.high3 0 0 0 0 1 0 0 1 
+state_reg.one 0 0 0 1 0 0 0 1 
+state_reg.low1 0 0 1 0 0 0 0 1 
+state_reg.low2 0 1 0 0 0 0 0 1 
+state_reg.low3 1 0 0 0 0 0 0 1 
